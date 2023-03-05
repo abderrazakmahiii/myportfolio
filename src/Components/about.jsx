@@ -11,9 +11,9 @@ export default function About() {
     }, [])
 
     return(
-        <div id="about" data-aos="zoom-in">
-        <img src={about} alt='Art work' />
-        <div id='myabout'>
+        <div id="about">
+        <img src={about} alt='Art work' data-aos="zoom-in" />
+        <div id='myabout' data-aos="zoom-in">
         <b>“</b>
         <hr/>
         <p>"As a front-end developer, I am driven by a passion for creating exceptional user experiences that engage and inspire. 
