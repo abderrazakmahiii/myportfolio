@@ -15,7 +15,7 @@ export default function Home () {
         <div id='home'>
             <div id='home-text' data-aos="fade-right">
             <h1 id="homeh1">Hey, I'm Abderrazak.</h1>
-            <p id="homep">A Front-end developer and an  AI researcher. <br /> Simply, I develop costum web interfaces. I am also passionate
+            <p id="homep">A Front-end developer and an  AI researcher. <br /> Simply, I develop custom web interfaces. I am also passionate
             about<br /> Artificial intelligence and robotics.</p>
             <ul id='social'>
                 {social.map((media, index) => 
