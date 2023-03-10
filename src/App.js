@@ -9,14 +9,10 @@ import Footer from './Components/footer';
 import './index.css';
 
 function App() {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    fetch('https://github.com/abderrazakmahiii/myportfolio/blob/main/src/data.json')
+    fetch('data.json')
       .then(response => response.json())
       .then(data => setData(data))
       .catch(error => console.log(error));
-  }, []);
 
   return (
     <React.Fragment>
