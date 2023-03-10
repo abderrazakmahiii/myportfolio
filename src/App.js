@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import Navbar from './Components/navbar';
 import Sidebar from './Components/sidebar';
 import Home from './Components/home';
@@ -11,7 +10,7 @@ import './index.css';
 function App() {
     fetch('data.json')
       .then(response => response.json())
-      .then(data => setData(data))
+      .then(response => console.log(response))
       .catch(error => console.log(error));
 
   return (
