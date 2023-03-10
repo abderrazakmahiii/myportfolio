@@ -19,7 +19,7 @@ export default function Home () {
             about<br /> Artificial intelligence and robotics.</p>
             <ul id='social'>
                 {social.map((media, index) => 
-                (<li key={index} ><a href={media.link} target='_blank' rel="noreferrer"><i className={media.icon}></i></a></li>)
+                (<li key={index} ><a href={media.link} target='_blank' rel="noopener noreferrer"><i className={media.icon}></i></a></li>)
                 )}
             </ul>
             </div>
