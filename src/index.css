@@ -683,6 +683,10 @@ code {
 }
 
 @media (max-width: 760px) {
+  .project {
+    width: 90vw; 
+    margin: auto;
+  }
   #navbar #nav-menu{
     width: 100vw;
     height: 100vh;
