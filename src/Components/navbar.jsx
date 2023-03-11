@@ -4,6 +4,7 @@ import { RiMenu4Fill } from 'react-icons/ri';
 export const menu = [
        { name: 'Home', link: '#home', icon: 'ri-home-2-fill' },
        { name: 'Skills', link: '#skills', icon: 'ri-medal-fill' },
+       { name: 'Portfolio', link: '#portfolio', icon: 'ri-reactjs-line' },
        { name: 'About', link: '#about', icon: 'ri-code-box-fill' },
        { name: 'Contact', link: '#contact', icon: 'ri-mail-fill' }
     ];
