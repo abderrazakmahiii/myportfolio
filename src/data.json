@@ -1,6 +1,12 @@
-{
-    "name":"CelsiusMeter",
-    "link":"https://abderrazakmahiii.github.io/celsiusmeter",
-    "description":"gi",
-    "published_date":"10/03/2023"
-}
+[
+    {
+      "id":"1",
+      "background_image":"./projects/celsiusmeter.png",
+      "name":"CelsiusMeter",
+      "ghpages":"https://abderrazakmahiii.github.io/celsiusmeter",
+      "repository":"https://abderrazakmahiii.github.io/celsiusmeter",
+      "description":"CelsiusMeter is a simple web application that renders weather informations from an API and displays it on the screen. It was created using React and the axios to fetch the data from the API.",
+      "published_date":"11/03/2023"
+    }
+  ]
+  

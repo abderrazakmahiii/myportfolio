@@ -327,6 +327,12 @@ code {
   padding-top: 0.5px;
 }
 
+#portfolio {
+  width: 90vw;
+  margin: auto;
+  padding-bottom: 500px
+}
+
 #myskills {
   padding-top: 5px;
   display: flex;
@@ -336,7 +342,7 @@ code {
   max-width: 100vw;
 }
 
-#myskills ul {
+#myskills ul, #myportfolio{
   list-style: none;
   padding: 0;
   margin: 0;
@@ -344,13 +350,12 @@ code {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 100%;
-  
 }
 
-#myskills li {
+#myskills li, #myportfolio li {
   float: left;
 }
+
 
 #skill {
   width: 20rem;
@@ -371,6 +376,7 @@ code {
   position: absolute;
   top: 50%;
   bottom: 0;
+  border-radius: .5rem;
 }
 
 #skill h3 {
@@ -590,6 +596,91 @@ code {
   .logo a {
     display: block;
   }
+}
+
+.project {
+  width: 30%;
+  height: fit-content;
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 20px;
+  box-shadow: 4px 2px 4px 2px rgba(0,0,0,.2);
+}
+
+
+.container {
+  width: 25rem;
+  height: 12rem;
+  border-radius: 2rem;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  overflow: "hidden";
+  border-radius: .5rem;
+}
+
+.topPro, .botPro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topPro p{
+  color: gray;
+  font-size: 12px;
+}
+
+.botPro button {
+  width: 110px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid black;
+  font-family: 'Montserrat';
+  margin-right: 10px;
+}
+
+.botPro a {
+  text-decoration: none;
+  color: black;
+}
+
+.botPro .github {
+  color: white;
+  background-color: #20205c;
+  border: none;
+}
+
+.botPro .github a {
+  color: white;
+}
+
+.botPro button:hover {
+  background-color: #20205c;
+  border: none;
+  transition: .8s;
+}
+
+.botPro button:hover > a {
+  color: white;
+  transition: .8s;
+}
+
+.botPro button:not(:hover), .botPro .github:not(:hover) {
+  transition: .8s;
+}
+
+.botPro .github:hover {
+  background-color: transparent;
+  border: 2px solid black;
+  transition: .8s;
+}
+
+.botPro .github:hover > a {
+  color: black;
+  transition: .8s;
 }
 
 @media (max-width: 760px) {
