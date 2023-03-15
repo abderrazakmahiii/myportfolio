@@ -7,6 +7,15 @@
       "repository":"https://github.com/abderrazakmahiii/celsiusmeter",
       "description":"CelsiusMeter is a simple web application that renders weather informations from an API and displays it on the screen. It was created using React and the axios to fetch the data from the API.",
       "published_date":"11/03/2023"
+    },
+    {
+      "id":"2",
+      "background_image":"./projects/to-do-list.png",
+      "name":"To Do list",
+      "ghpages":"https://abderrazakmahiii.github.io/to-do-list",
+      "repository":"https://github.com/abderrazakmahiii/to-do-list",
+      "description":"To Do list is a simple web application created using react, a good example of using hooks, mainly the useState and useEffect hooks, you can add new tasks and delete them as well.",
+      "published_date":"15/03/2023"
     }
   ]
   
