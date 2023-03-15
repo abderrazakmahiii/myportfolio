@@ -14,7 +14,7 @@
       "name":"To Do list",
       "ghpages":"https://abderrazakmahiii.github.io/to-do-list",
       "repository":"https://github.com/abderrazakmahiii/to-do-list",
-      "description":"To Do list is a simple web application created using react, a good example of using hooks, mainly the useState and useEffect hooks, you can add new tasks and delete them as well.",
+      "description":"To Do list is a simple one page web application created using React, a good example of using hooks, mainly the useState and useEffect hooks, you can add new tasks and delete them as well.",
       "published_date":"15/03/2023"
     }
   ]
