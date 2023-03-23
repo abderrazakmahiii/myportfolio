@@ -22,7 +22,7 @@ export default function Footer () {
                     )}
                 </ul>
                 <p>Copyright © {new Date().getFullYear()}</p>
-                <p>Version 1.2.0</p>
+                <p>Version 1.3.1</p>
             </div>
     </div>
     )
