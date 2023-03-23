@@ -621,8 +621,9 @@ code {
   border-radius: .5rem;
 }
 
-.container p {
+.project p {
   overflow-y: auto;
+  max-height: 7rem;
 }
 
 .topPro, .botPro {

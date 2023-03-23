@@ -16,6 +16,15 @@
       "repository":"https://github.com/abderrazakmahiii/to-do-list",
       "description":"To Do list is a simple one page web application created using React, a good example of using hooks, mainly the useState and useEffect hooks, you can add new tasks and delete them as well. An animation on scroll using aos library was used.",
       "published_date":"15/03/2023"
+    },
+    {
+      "id":"3",
+      "background_image":"./projects/qibla.png",
+      "name":"Qibla",
+      "ghpages":"https://abderrazakmahiii.github.io/qibla",
+      "repository":"https://github.com/abderrazakmahiii/qibla",
+      "description":"Introducing Qibla, a beautifully designed web application that provides users with an immersive experience of the Azan (also known as Adhan) call to prayer. Qibla offers a countdown timer for the next prayer, which is fetched using an API and the library axios. Using the user's current city and country, which is obtained through another API that uses geo coordinates, Qibla accurately calculates the prayer times for each day. Developed with React, this application is a great example of using Restful APIs, React hooks and countdowns. Join the Qibla community today to enrich your daily prayer experience with the most beautiful sound in the world.",
+      "published_date":"23/03/2023"
     }
   ]
   

@@ -5,6 +5,8 @@ import tiktok from '../img/tiktok.png';
 import ms from '../img/ms.png';
 import tm from '../img/tm.png';
 import coding from '../img/coding.png';
+import github from '../img/github.png';
+import api from '../img/api.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {useEffect} from 'react';
@@ -16,7 +18,9 @@ export default function Skills () {
         {title:'WEB DEVELOPMENT', img: frontend, description:'HTML, CSS, JAVASCRPIT, REACT', style:{color: 'white', backgroundColor:'#29282B'}, style1:{width: '170px'}, alt: 'Frontend'},
         {title:'PROGRAMMING AND CODING', img: coding, description:'C, Java, Python(Beginner to intermediate)', style:{color: 'white', backgroundColor:'#29282B'}, style1:{width: '170px'}, alt:'Backend'},
         {title:'TIME MANAGMENT', img: tm, description:'Meeting deadlines', style:{color: 'white', backgroundColor:'#3A53E3'}, style1:{width: '200px'}, alt:'Meeting deadines'},
-        {title:'MS OFFICE', img: ms, description:'Microsoft Office Tools', style:{color: 'black', backgroundColor:'#BAD0E4'}, style1:{width: '200px'}, alt:'Microsoft Office Tools'} 
+        {title:'MS OFFICE', img: ms, description:'Microsoft Office Tools', style:{color: 'black', backgroundColor:'#BAD0E4'}, style1:{width: '200px'}, alt:'Microsoft Office Tools'},
+        {title:'VERSION CONTROL', img: github, description:'GIT, GITHUB', style:{color: 'black', backgroundColor:'#BAD0E4'}, style1:{width: '70px'}, alt:'Communication'},
+        {title:'DATA AND JSON', img: api, description:'API, REST API', style:{color: 'white', backgroundColor:'#3A53E3'}, style1:{width: '100px'}, alt:'Algorithms mindset'},
     ]
     useEffect(()=>{
         AOS.init({duration: 2000});
