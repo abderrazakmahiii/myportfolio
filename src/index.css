@@ -599,7 +599,7 @@ code {
 
 .project {
   width: 30%;
-  height: fit-content;
+  height: 28rem;
   margin: 10px;
   padding: 20px;
   position: relative;
@@ -619,6 +619,10 @@ code {
   height: 100%;
   overflow: "hidden";
   border-radius: .5rem;
+}
+
+.container p {
+  overflow-y: auto;
 }
 
 .topPro, .botPro {
